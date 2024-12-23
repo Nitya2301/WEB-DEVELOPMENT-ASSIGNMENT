@@ -1,0 +1,372 @@
+        body{
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://media.istockphoto.com/id/1258733624/vector/herbs-and-spices-seamless-pattern-ginger-spinach-onion-pepper-garlic-fennel-packaging.jpg?s=612x612&w=0&k=20&c=6Fioel8Vz9YjpamIfhS68KzPhPfgPbcX5gs_6fJQPzQ='); 
+            
+        }
+        
+        header {
+            background-color: #333;
+            font-size: xx-large;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+        
+        #home, #about, #contact {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        #search-results {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+
+
+        .search-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: large;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .search-box input[type="text"] {
+            padding: 12px;
+            width: 60%;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .search-box button {
+            padding: 12px 20px;
+            border: none;
+            background-color: #de3315;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .search-box button:hover {
+            background-color: #115f78;
+        }
+
+        section.recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .recipe-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .recipe-card h2 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        .recipe-card p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+            
+        .rate-btn {
+            background-color: #de3315;
+            color: white;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px; 
+        }
+
+        .view-recipe-btn {
+            background-color: #de3315;
+            color: white;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: block; 
+            margin-top: 10px; 
+         }
+         .rate-container {
+            margin-top: 10px;
+            display: flex;
+            gap: 8px;
+            cursor: pointer;
+          }
+          
+          .star {
+            font-size: 40px;
+            color: #ccc;
+            transition: color 0.3s;
+          }
+          
+          .star.selected {
+            color: #ffe100;
+          }
+          
+
+
+        .submit-recipe {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .submit-recipe h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .submit-recipe input, .submit-recipe textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .submit-recipe button {
+            background-color: #de3315;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .submit-recipe button:hover {
+            background-color: #115f78;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            font-size: large;
+            padding: 12px;
+            
+        }
+        .about-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 30px;
+            margin: 20px auto;
+            width: 90%;
+            text-align: center;
+        }
+
+        .about-section h2 {
+            color: #333;
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        
+        .contact-section {
+            text-align: center;
+            margin-bottom: 40px;
+            background-color: #f9f9f9;
+            background-size: padding 20px,50px;
+        }
+
+        .contact-section h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .contact-section p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .contact-section form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .contact-section input,
+        .contact-section textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .contact-section input:focus,
+        .contact-section textarea:focus {
+                outline: none;
+                border-color: #de3315;
+            }
+
+        .contact-section button {
+                background-color: #de3315;
+                color: white;
+                padding: 18px;
+                border: none;
+                border-radius: 5px;
+                font-size: 20px;
+                cursor: pointer;
+                width: 100%;
+                transition: background-color 0.3s ease;
+            }
+
+        .contact-section button:hover {
+                background-color: #115f78;
+            }
+
+        .contact-info {
+                text-align: center;
+                margin-top: 40px;
+                background-color: #f9f9f9;
+                border: #333;
+            }
+
+        .contact-info h3 {
+                font-size: 24px;
+                color: #333;
+                margin-bottom: 15px;
+            }
+
+        .contact-info p {
+                font-size: 18px;
+                color: #555;
+                margin: 10px 0;
+            }
+
+        footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                font-size: 16px;
+                margin-top: 40px;
+            }
+            #reviews-section h2 {
+                font-size: 2rem;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            
+            #reviews-section p {
+                text-align: center;
+                margin-bottom: 40px;
+                color: #555;
+                font-size: 1rem;
+            }
+            
+            .review {
+                background-color: #f7f7f7;
+                border: 1px solid #ddd;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 8px;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            
+            .review h3 {
+                margin: 0 0 10px;
+                font-size: 1.5rem;
+                color: #333;
+            }
+            
+            .review p {
+                margin: 0;
+                color: #555;
+                font-size: 1rem;
+                line-height: 1.5;
+            }
+            
+            footer {
+                text-align: center;
+                padding: 15px;
+                background-color: #333;
+                color: #fff;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+            }
+            
+            footer p {
+                margin: 0;
+                font-size: 0.9rem;
+            }
